@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end;
+  margin-right: 24px;
 }
-
-.App-link {
-  color: #61dafb;
+.htext {
+  color: black;
+  font-size: 14px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.htext a {
+  color: black;
+}
+.gmail {
+  padding-right: 12px;
+}
+.avatar {
+height: 30px;
+width: 30px;
+margin-top: 10px;
+border-radius: 50%;
+  background-color: rgb(200, 200, 200);
+}
+.appicon {
+  width: 30px;
+  height: 30px;
+  padding-right: 12px;
+  margin-top: 10px;
+}
+.header p {
+  position: absolute;
+  right:34px;
+}
+.header ul {
+  padding-right: 12px;
+}
+.googlelogo img {
+  width: 280px;
+ display: flex;
+ justify-content: center;
+ margin: auto;
+ margin-top: 20px;
+}
+.input {
+  height: 40px;
+  width: 540px;
+  border-radius: 24px;
+  border: 1px solid rgb(200, 200, 200);
+  margin: auto;
+  display: flex;
+  margin-top: 30px;
+  padding-left: 34px;
+}
+.searchHistory{
+  margin-left: 340px;
+}
+.search{
+  position: absolute;
+  height:20px;
+  left: 364px;
+  top: 202px;
+}
+.button1 {
+height:40px;
+padding-left: 16px;
+padding-right: 16px;
+background-color:  rgb(244, 244, 244);
+border: none;
+font-size: 14px;
+margin-right: 6px;
+}
+.button2 {
+  height:40px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color:  rgb(244, 244, 244);
+  border: none;
+  font-size: 14px;
+  margin-left: 6px;
+  
   }
-  to {
-    transform: rotate(360deg);
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
   }
+  .centretext {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .ede {
+    margin-top: 32px;
+  }
+.centretext a {
+  color: rgb(31, 31, 146);
+}
+.footerlinks {
+  background-color: rgb(244, 244, 244);
+  display: flex;
+  justify-content: space-between
+}
+.footer{
+  margin-top: 140px;
+}
+.rule{
+  border: 1px solid rgb(226, 226, 226);
+}
+.footer1 {
+background-color:rgb(244, 244, 244);
+padding-top: 3px;
+padding-bottom: 3px;
+}
+.footer2{
+display: flex;
+}
+.footer3 {
+margin-right: 120px;
+}
+.footer4{
+  margin-right: 24px;
+}
+a.footerlink {
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+  font-size: 14px;
+}
+ul.footerlinklist {
+  list-style-type: none;
 }
